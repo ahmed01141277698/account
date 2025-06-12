@@ -1,0 +1,68 @@
+body {
+    background-color: #00f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    background: #003400;
+    padding: 10px;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+form input {
+    background-color: #6e78ff00;
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    color: azure;
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+form button {
+    background: rgba(0, 0, 255, 0.725);
+    color: black;
+    border: none;
+    cursor: pointer;
+    flex-grow: 1;
+    flex-basis: 15px;
+    padding: 5px 20px;
+
+}
+
+.custom-shape-divider-bottom-1727124311 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1727124311 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 142px;
+}
+
+.custom-shape-divider-bottom-1727124311 .shape-fill {
+    fill: #D70C0C;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1727124311 svg {
+        width: calc(111% + 1.3px);
+        height: 118px;
+    }
+}
